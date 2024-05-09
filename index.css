@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    min-height: 100vh;       
+    margin: 0;                
+}
+
+.wrapper {
+    margin: auto auto;
+}
+
+.welcome {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(38, 164, 211), rgb(96, 38, 211));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
